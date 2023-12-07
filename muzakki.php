@@ -34,8 +34,9 @@ if (!isset($_SESSION['username'])) {
 
     <div class="table-container">
         <h2>Data Muzakki</h2>
-        <div class="d-grid col-6 mx-auto">
-            <a href="tambah_muzakki.php" class="btn btn-success"><b>===== Tambah Baru =====</b></a>
+        <div>
+            <a href="tambah_muzakki.php" class="btn btn-success"><b>Tambah Baru</b></a>
+            <a href="laporan_muzakki.php" class="btn btn-primary"><b>Unduh Laporan</b></a>
         </div>
         <table border="1">
             <thead>
